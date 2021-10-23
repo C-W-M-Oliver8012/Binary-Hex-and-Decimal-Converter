@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Binary, Hex, and Decimal Converter</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body>
+    <h1>Binary, Hex, and Decimal Converter</h1>
+
+    <div class="card">
+        <div class="container">
+            <h2>Instructions</h2>
+            <p>Binary numbers are encoded by the prefixes 0b, 1b, and 2b for
+            unsigned binary, 1' compliment binary, and 2's compliment
+            binary (ex: 2b10101101).
+            </p>
+            <p>Likewise, hex numbers are encoded by the prefixes 0h, 1h, and 2h
+            for unsinged hex, 1's compliment hex, and 2's compliment hex
+            (ex: 2hAF3C).
+            </p>
+            <p>Any input <b>NOT</b> prefixed with binary and hex prefixes will be
+            parsed as either a positive or negative decimal number
+            (ex: -1245).
+            </p>
+            <p id="error"></p>
+            <input type="text" id="input">
+            <input type="button" value="Convert" id="convert-button">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="container">
+            <h2>Binary</h2>
+            <p><b>0b: </b></p>
+            <p><b>1b: </b></p>
+            <p><b>2b: </b></p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="container">
+            <h2>Hex</h2>
+            <p><b>0h: </b></p>
+            <p><b>1h: </b></p>
+            <p><b>2h: </b></p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="container">
+            <h2>Decimal</h2>
+            <p><b>Value: </b></p>
+        </div>
+    </div>
+
+    <script src="converter.js"></script>
+
+</body>
+</html>
