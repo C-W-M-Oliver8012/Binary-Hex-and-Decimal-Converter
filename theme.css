@@ -26,35 +26,6 @@ p {
 	color: red;
 }
 
-#input {
-	display: inline-block;
-	padding: 0.6em;
-	width: 65%;
-}
-
-#convert-button {
-	border-radius: 0.3em;
-	font-size: 1em;
-	border: none;
-	background-color: #3AAFA9;
-	color: #17252A;
-	display: inline-block;
-	padding: 0.5em;
-	min-width: 20%;
-	max-width: 30%;
-}
-
-#convert-button:active {
-	border-radius: 0.3em;
-	font-size: 1em;
-	border: none;
-	background-color: #3AAFA9;
-	color: #17252A;
-	display: inline-block;
-	padding: 0.4em;
-	width: 20%;
-}
-
 .card {
 	border-radius: 0.3em;
 	margin: auto;
@@ -71,4 +42,70 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 2em;
+}
+
+@media only screen and (max-width: 375px) {
+	#input {
+		display: block;
+		padding: 0.6em;
+		width: 85%;
+		margin: auto;
+		margin-bottom: .4em;
+	}
+
+	#convert-button {
+		border-radius: 0.3em;
+		font-size: 1em;
+		border: none;
+		background-color: #3AAFA9;
+		color: #17252A;
+		display: block;
+		padding: 0.5em;
+		width: 85%;
+		margin: auto;
+	}
+
+	#convert-button:active {
+		border-radius: 0.3em;
+		font-size: 1em;
+		border: none;
+		background-color: #3AAFA9;
+		color: #17252A;
+		display: block;
+		padding: 0.4em;
+		width: 85%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 376px) {
+	#input {
+		display: inline-block;
+		padding: 0.6em;
+		width: 65%;
+	}
+
+	#convert-button {
+		border-radius: 0.3em;
+		font-size: 1em;
+		border: none;
+		background-color: #3AAFA9;
+		color: #17252A;
+		display: inline-block;
+		padding: 0.5em;
+		min-width: 20%;
+		max-width: 30%;
+	}
+
+	#convert-button:active {
+		border-radius: 0.3em;
+		font-size: 1em;
+		border: none;
+		background-color: #3AAFA9;
+		color: #17252A;
+		display: inline-block;
+		padding: 0.4em;
+		min-width: 20%;
+		max-width: 30%
+	}
 }
