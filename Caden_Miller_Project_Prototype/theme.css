@@ -1,28 +1,19 @@
 body {
-	background-color: #3564BB;
+	background-color: #3AAFA9;
 	text-align: center;
 	max-width: 50em;
 	margin: auto;
 }
 
-.conversion {
-	font-size: 1.5em;
-}
-
 h1, h2, h3, h4, h5, p {
 	padding: 0.2em;
-	color: #E3EAF7;
-	font-family: 'Signika Negative', sans-serif;
-}
-
-p {
-	font-size: 1.2em;
+	color: #FEFFFF;
+	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
 }
 
 h1 {
-	color: #101A2D;
+	color: #17252A;
 	font-size: 3em;
-	font-family: 'Signika Negative', sans-serif;
 }
 
 p {
@@ -33,7 +24,6 @@ p {
 	visibility: hidden;
 	padding: 0.2em;
 	color: red;
-	font-size: 1.5em;
 }
 
 .card {
@@ -43,7 +33,7 @@ p {
 	margin-right: 1em;
 	margin-bottom: 2em;
 	max-width: 50em;
-	background-color: #101A2D;
+	background-color: #17252A;
 }
 
 .container {
@@ -67,7 +57,7 @@ p {
 		border-radius: 0.3em;
 		font-size: 1em;
 		border: none;
-		background-color: #3564BB;
+		background-color: #3AAFA9;
 		color: #17252A;
 		display: block;
 		padding: 0.5em;
@@ -79,7 +69,7 @@ p {
 		border-radius: 0.3em;
 		font-size: 1em;
 		border: none;
-		background-color: #3564BB;
+		background-color: #3AAFA9;
 		color: #17252A;
 		display: block;
 		padding: 0.4em;
@@ -99,7 +89,7 @@ p {
 		border-radius: 0.3em;
 		font-size: 1em;
 		border: none;
-		background-color: #3564BB;
+		background-color: #3AAFA9;
 		color: #17252A;
 		display: inline-block;
 		padding: 0.5em;
@@ -111,7 +101,7 @@ p {
 		border-radius: 0.3em;
 		font-size: 1em;
 		border: none;
-		background-color: #3564BB;
+		background-color: #3AAFA9;
 		color: #17252A;
 		display: inline-block;
 		padding: 0.4em;
